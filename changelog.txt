@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2023-05-26
+  Info:
+    - Initial release
+  Changes:
+    - Scale recipe icon in alt-mode according to the machine's size
+    - Recursively add science packs to technologies that depend on previous techs with more science-packs ingredients
