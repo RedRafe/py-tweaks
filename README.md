@@ -8,8 +8,11 @@ Simply fixes some issues/inconsistencies/details in [Pyanodon](https://mods.fact
 
 ### Changes
 
-- Bigger recipe icons
+- *Bigger recipe icons*
+ 
  > Scale recipe icon in alt-mode according to the machine's size to better fit PY's enormous machines
-- Tech integrity check
+
+- *Tech integrity check*
+ 
  > Recursively add science packs to technologies that depend on previous techs with more science-packs ingredients
  (i.e. artillery turrets tech, unlocked after military & chemical, will also cost chemical science packs in addition to already present red/green/military)
