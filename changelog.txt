@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2023-05-27
+  Info:
+    - Actually writing good code for once KEKW
+  Changes:
+    - Added settings to turn ON/OFF each feature individually
+    - Added setting to limit recursive search. Defaults up to 3 prior prerequisites in depth.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2023-05-26
   Info:

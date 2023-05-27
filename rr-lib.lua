@@ -65,7 +65,10 @@ function lib.add_pack(tech_name, ingredient, count)
 end
 
 --- @param tech string | TechnologyPrototype
-function lib.add_prerequisite_packs(tech)
+--- @param depth number
+function lib.add_prerequisite_packs(tech, depth)
+  if depth <= 0 then return end
+
   if type(tech) == "string" then
     tech = data.raw.technology[tech]
   end
@@ -76,7 +79,7 @@ function lib.add_prerequisite_packs(tech)
 
   for ___, prerequisite in pairs(prerequisites) do
     if data.raw.technology[prerequisite] ~= nil then
-      lib.add_prerequisite_packs(prerequisite)
+      lib.add_prerequisite_packs(prerequisite, depth-1)
       local prereq = data.raw.technology[prerequisite]
       local unit = prereq.unit
         or (prereq.normal ~= nil and prereq.normal.unit) 
