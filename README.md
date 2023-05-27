@@ -4,7 +4,7 @@
 
 Simply fixes some issues/inconsistencies/details in [Pyanodon](https://mods.factorio.com/user/pyanodon) mods.
 
-Can tur ON/OFF each feature individually via mod settings.
+Can turn ON/OFF each feature individually via mod settings.
 
 ---
 
