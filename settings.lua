@@ -10,7 +10,7 @@ data:extend({
   {
       type = "int-setting",
       name = "rr-py-depth",
-      localised_name = "Chech previous techs",
+      localised_name = "Check previous techs",
       localised_description = "Call the recursion function up to N values, with N [0-100]. If 0, it won't check. Increase if some packs are missing, but loading times increase exponentially with N.",
       setting_type = "startup",
       default_value = 3,
