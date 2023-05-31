@@ -26,4 +26,12 @@ data:extend({
     default_value = true,
     order = "f2"
   },
+  {
+    type = "bool-setting",
+    name = "rr-py-equipments",
+    localised_name = "Fix equipment placement/burnt results",
+    setting_type = "startup",
+    default_value = true,
+    order = "f3"
+  },
 })

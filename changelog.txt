@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2023-05-31
+  Info:
+    - R: Batman, the Batmobile won't start
+    - B: Check the battery
+    - R: What's a Tery?
+    - B: >:|
+  Changes:
+    - Added setting to fix equipment placement/burnt results
+---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 2023-05-27
   Info:
