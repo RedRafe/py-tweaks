@@ -18,3 +18,7 @@ Can turn ON/OFF each feature individually via mod settings.
  
  > Recursively add science packs to technologies that depend on previous techs with more science-packs ingredients
  (i.e. artillery turrets tech, unlocked after military & chemical, will also cost chemical science packs in addition to already present red/green/military)
+
+- *Equipment fix*
+
+ > Fix battery items placement result when placed as equipment
