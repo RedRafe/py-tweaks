@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2023-06-02
+  Info:
+    - When the puzzle said 2-4 years but you completed it in 3 months. I am speed.
+  Changes:
+    - Added setting to fix missing upgrade planner for some Mk01-Mk04 machines
+---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 2023-05-31
   Info:

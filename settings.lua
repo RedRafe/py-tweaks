@@ -22,6 +22,7 @@ data:extend({
     type = "bool-setting",
     name = "rr-py-icons",
     localised_name = "Enable bigger icon scaling",
+    localised_description = "PyMods big machines will have bigger icons according to their scale. Still about 25% of the machine's size",
     setting_type = "startup",
     default_value = true,
     order = "f2"
@@ -30,8 +31,18 @@ data:extend({
     type = "bool-setting",
     name = "rr-py-equipments",
     localised_name = "Fix equipment placement/burnt results",
+    localised_description = "Batteries will be placed correctly as equipments when insert into armor-like inventories",
     setting_type = "startup",
     default_value = true,
     order = "f3"
+  },
+  {
+    type = "bool-setting",
+    name = "rr-py-next-upgrade",
+    localised_name = "Add upgrade planner to missing entities",
+    localised_description = "Some entities were missing the next_upgrade specification, this will enable the fast upgrade for those",
+    setting_type = "startup",
+    default_value = true,
+    order = "f4"
   },
 })

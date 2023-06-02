@@ -31,3 +31,17 @@ if settings.startup["rr-py-equipments"].value then
     end
   end
 end
+
+-- Adds upgrade planner to missing entities
+if settings.startup["rr-py-next-upgrade"].value then
+  local upgrades_list = require "cache.next-upgrades"
+
+  for ___, p in pairs(upgrades_list) do
+    local c = data.raw[p.type][p.name]
+    local n = data.raw[p.type][p.next_upgrade]
+
+    if c and n and not c.next_upgrade then
+      c.next_upgrade = p.next_upgrade
+    end
+  end
+end
